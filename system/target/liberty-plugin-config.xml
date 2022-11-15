@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>/Users/yasmin/Documents/open-liberty/dev/build.image/wlp</installDirectory>
+    <serverDirectory>/Users/yasmin/Documents/open-liberty/dev/build.image/wlp/usr/servers/system</serverDirectory>
+    <userDirectory>/Users/yasmin/Documents/open-liberty/dev/build.image/wlp/usr</userDirectory>
+    <serverOutputDirectory>/Users/yasmin/Documents/open-liberty/dev/build.image/wlp/usr/servers/system</serverOutputDirectory>
+    <serverName>system</serverName>
+    <configDirectory>/Users/yasmin/Documents/finish/system/src/main/liberty/config</configDirectory>
+    <configFile>/Users/yasmin/Documents/finish/system/src/main/liberty/config/server.xml</configFile>
+    <bootstrapPropertiesFile>/Users/yasmin/Documents/finish/system/src/main/liberty/config/bootstrap.properties</bootstrapPropertiesFile>
+    <jvmOptionsFile>/Users/yasmin/Documents/finish/system/src/main/liberty/config/jvm.options</jvmOptionsFile>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>guide-microprofile-opentracing-jaeger-system.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <type>jar</type>
+    </assemblyArtifact>
+    <assemblyInstallDirectory>/Users/yasmin/Documents/finish/system/target/liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>/Users/yasmin/Documents/open-liberty/dev/build.image/wlp/usr/servers/system/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <projectCompileDependency>io.opentelemetry:opentelemetry-api:1.19.0</projectCompileDependency>
+    <projectCompileDependency>io.opentelemetry:opentelemetry-context:1.19.0</projectCompileDependency>
+    <projectCompileDependency>org.slf4j:slf4j-api:1.7.33</projectCompileDependency>
+    <projectCompileDependency>org.slf4j:slf4j-jdk14:1.7.33</projectCompileDependency>
+</liberty-plugin-config>

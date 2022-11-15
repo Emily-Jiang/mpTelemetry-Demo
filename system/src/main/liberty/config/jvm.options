@@ -1,0 +1,4 @@
+-Dotel.traces.exporter=zipkin
+-Dotel.service.name=system
+-Dotel.metrics.exporter=none
+-javaagent:opentelemetry-javaagent.jar
