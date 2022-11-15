@@ -30,3 +30,9 @@ https://github.com/yasmin-aumeeruddy/mpTelemetry-Demo/blob/main/system/src/main/
 
 and 
 https://github.com/yasmin-aumeeruddy/mpTelemetry-Demo/blob/main/system/src/main/java/io/openliberty/guides/system/SystemResource.java#L43-L44
+
+Navigate to the following endpoints to create events to see spans: 
+
+`localhost:9080/system/properties`
+
+`localhost:9081/inventory/systems/localhost`
