@@ -40,6 +40,7 @@ public class SystemResource {
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   public Properties getProperties() {
+    span.setAttribute("Event number",1);
     span.addEvent("Returning properties");
     return System.getProperties();
   }
