@@ -31,17 +31,17 @@ import io.opentelemetry.api.trace.Span;
 @Path("properties")
 public class SystemResource {
 
-  @Inject
-  Tracer tracer;
+  //@Inject
+  //Tracer tracer;
 
-  @Inject
-  Span span;
+  //@Inject
+  //Span span;
 
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   public Properties getProperties() {
-    span.setAttribute("Event number",1);
-    span.addEvent("Returning properties");
+    //span.setAttribute("Event number",1);
+    //span.addEvent("Returning properties");
     return System.getProperties();
   }
 }
