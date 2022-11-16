@@ -17,7 +17,7 @@ Without changes, the java agent will be collecting and exporting them to zipkin.
 https://github.com/yasmin-aumeeruddy/mpTelemetry-Demo/blob/main/system/src/main/liberty/config/jvm.options
 https://github.com/yasmin-aumeeruddy/mpTelemetry-Demo/blob/main/inventory/src/main/liberty/config/jvm.options
 
-You can disable the java agent with the option `Dotel. javaagent. enabled=false`
+You can disable the java agent with the option `-Dotel.javaagent.enabled=false`
 
 To enable automatic instrumentation, change the `otel.sdk.disabled` property in the config properties files: 
 
