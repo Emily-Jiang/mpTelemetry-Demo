@@ -33,6 +33,6 @@ https://github.com/yasmin-aumeeruddy/mpTelemetry-Demo/blob/main/system/src/main/
 
 Navigate to the following endpoints to create events to see spans: 
 
-`localhost:9080/system/properties`
+`http://localhost:9080/system/properties`
 
-`localhost:9081/inventory/systems/localhost`
+`http://localhost:9081/inventory/systems/localhost`
