@@ -110,7 +110,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <artifactId>liberty-maven-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <installDirectory>/Users/yasmin/Documents/open-liberty/dev/build.image/wlp</installDirectory>
+                    <installDirectory>/Users/emilyjiang/Downloads/wlp</installDirectory>
                     <serverName>inventory</serverName>
                 </configuration>
             </plugin>
